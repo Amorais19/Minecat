@@ -1,6 +1,6 @@
 import * as S from "./styles"
 
-export function Home() {
+export function Cats() {
     return (
         <S.Section>
             oi
