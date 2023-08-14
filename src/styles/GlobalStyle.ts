@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Merriweather', serif;
     box-sizing: border-box;
   }
+  
 `
 export const colors = {
   primary: "#3F8A9B",
