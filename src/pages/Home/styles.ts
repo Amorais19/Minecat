@@ -2,13 +2,27 @@ import styled from 'styled-components'
 import { colors } from "../../styles/GlobalStyle"
 
 export const Section=styled.section`
-    padding: 0.5rem;
+
     align-items: center;
-    img {
+    justify-content: center;
+
+    div {
+        background-size: 100%;
+        height: calc(100vh - 9rem);
+    }
+
+    section {
         display: flex;
-        width: 100%;
+        justify-content: center;
+        padding-top: 3%;
     }
-    h2 {
-        color: ${colors.black}
+
+    nav {
+        text-align: center;
     }
+
+    a {
+        color: ${colors.white};
+    }
+
 `
