@@ -5,7 +5,6 @@ export function Header() {
     return (
         <S.Header>
             <img src={Logo} alt="Minecat logo" />
-          
         </S.Header>
     )
 }

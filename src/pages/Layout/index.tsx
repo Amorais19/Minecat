@@ -1,14 +1,15 @@
 import { Outlet } from "react-router-dom"
-import { ComponentHeader } from "../../components"
+import { ComponentHeader, ComponentFooter } from "../../components"
 import * as S from "./styles"
 
-export function Layout(){
+export function Layout() {
     return (
         <>
-         <ComponentHeader /> 
-        <S.Fundo>
-          <Outlet />
-        </S.Fundo>
-      </>
+            <ComponentHeader />
+            <S.Fundo>
+                <Outlet />
+            </S.Fundo>
+            <ComponentFooter />
+        </>
     )
 }

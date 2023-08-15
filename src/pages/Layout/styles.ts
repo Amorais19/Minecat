@@ -1,8 +1,5 @@
-import styled from "styled-components"
-import { colors } from "../../styles/GlobalStyle"
+import styled from 'styled-components'
 
-export const Fundo = styled.body`
-body{
-    background-color: ${colors.primary};
-}
+export const Fundo=styled.section`
+  min-height: calc(100vh - 9rem);
 `
